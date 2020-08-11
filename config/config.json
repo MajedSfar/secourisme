@@ -1,0 +1,32 @@
+{
+    "development":{
+        "PORT": 3000,
+        "URI": "mongodb+srv://jesus_grey:ramoussa123II@cluster0-7lmc4.mongodb.net/ChifcoRh?retryWrites=true&w=majority",
+        "SECRET": "JustForTest",
+        "JWT_EXP":"120m",
+        "MAILGUN_API": "70bb729c42db934ab82f92f45bd2935a-c27bf672-3880a5a6",
+        "MAILGUN_DOMAIN": "sandbox9109ff3f03c14d2eaa5af5bb254110cb.mailgun.org",
+        "SERVICE": "MailGun",
+        "BASE_SERVER_URL": "http://localhost:3000/api",
+        "SQL_USER": "chifco",
+        "SQL_USER_PASSWORD": "ramoussa123II",
+        "SQL_SERVER": "localhost",
+        "SQL_DATABASE": "chifcoRh",
+        "SQL_PORT": 1433
+    },
+    "deployment": {
+        "PORT": 80,
+        "URI": "mongodb+srv://jesus_grey:ramoussa123II@cluster0-7lmc4.mongodb.net/ChifcoRh?retryWrites=true&w=majority",
+        "SECRET": "ARealSecret",
+        "JWT_EXP": "120m",
+        "MAILGUN_API": "70bb729c42db934ab82f92f45bd2935a-c27bf672-3880a5a6",
+        "MAILGUN_DOMAIN": "sandbox9109ff3f03c14d2eaa5af5bb254110cb.mailgun.org",
+        "SERVICE": "MailGun",
+        "BASE_SERVER_URL": "http://localhost:3000/api",
+        "SQL_USER": "chifco",
+        "SQL_USER_PASSWORD": "ramoussa123II",
+        "SQL_SERVER": "localhost",
+        "SQL_DATABASE": "chifcoRh",
+        "SQL_PORT": 1433
+    }
+}
